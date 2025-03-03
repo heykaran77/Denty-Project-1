@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+
+main > h1 {
+  position: absolute;
+  font-size: 10rem;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  font-weight: 400;
+  transform: translate(-50%, -50%);
+  /* background: crimson; */
+  text-align: center;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+main > h1 > span {
+  font-weight: 800;
+}
+
+nav {
+  height: 4rem;
+  width: 100%;
+  /* background: crimson; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 4rem;
+}
+
+#nav-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.8rem;
+}
+
+#menu {
+  border: 2px solid #0c0c0c;
+  border-radius: 2.5rem;
+  padding: 0.4rem 0.8rem;
+}
+#nav-left i {
+  border: 2px solid #0c0c0c;
+  padding: 0.4rem 0.8rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+
+#nav-center {
+  display: flex;
+  gap: 0.6rem;
+}
+
+#nav-center #logo {
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: #ff7b00;
+  text-transform: uppercase;
+}
+
+#nav-center svg {
+  height: 1.6rem;
+  width: auto;
+}
+
+#nav-right button {
+  border: 2px solid #0c0c0c;
+  background: transparent;
+  padding: 0.4rem 0.8rem;
+  border-radius: 2.5rem;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+#nav-right #sign-up {
+  background: #ff7b00;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 25rem;
+  width: 15rem;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 2rem;
+  pointer-events: none;
+}
+
+#img1 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img2 {
+  transform: translate(-50%, -50%) rotate(-40deg);
+}
+#img3 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img4 {
+  transform: translate(-50%, -50%) rotate(-50deg);
+}
+
+#btm {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+#btm h4 {
+  font-weight: 300;
+}
+
+#btm-left {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+#btm-left > #circle {
+  height: 0.8rem;
+  width: 0.8rem;
+  background: rgb(255, 0, 51);
+  border-radius: 50%;
+  margin-bottom: 0.2rem;
+}
+#btm-right {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  bottom: 5%;
+  right: 3%;
+}
+
+#btm-right #socials {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: space-between;
+}
