@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "neue machina";
+  src: url("./NeueMachina-Regular_DQCmjH1st.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
